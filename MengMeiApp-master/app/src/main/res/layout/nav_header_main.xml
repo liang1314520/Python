@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="206dp">
+
+    <com.evilbeast.meizi.widget.CircleImageView
+        android:id="@+id/nav_head_avatar"
+        android:src="@drawable/ic_avatar2"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/nav_head_title"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/nav_head_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
